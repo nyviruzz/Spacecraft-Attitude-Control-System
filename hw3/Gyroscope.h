@@ -1,7 +1,7 @@
 #ifndef GYROSCOPE_H
 #define GYROSCOPE_H
 
-#include "../hw1/Mat3.h"
+#include "Mat3.h"
 #include "GaussianNoise.h"
 
 class Gyroscope {

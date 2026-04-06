@@ -1,7 +1,7 @@
 #ifndef QUATERNION_H
 #define QUATERNION_H
 
-#include "../hw1/Mat3.h"
+#include "Mat3.h"
 
 class Quaternion {
 private:

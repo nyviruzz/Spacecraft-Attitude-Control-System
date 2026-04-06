@@ -2,7 +2,7 @@
 #define GAUSSIANNOISE_H
 
 #include <random>
-#include "../hw1/Vec3.h"
+#include "Vec3.h"
 
 class GaussianNoise {
 private:
