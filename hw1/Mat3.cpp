@@ -140,3 +140,8 @@ Mat3 Mat3::inverse() const {
     Mat3 adjugate = cofactor.transpose();
     return adjugate * (1.0 / det);
 }
+
+double Mat3::trace() const {
+    double trace = data[0][0] + data[1][1] + data[2][2];
+    return trace; 
+}

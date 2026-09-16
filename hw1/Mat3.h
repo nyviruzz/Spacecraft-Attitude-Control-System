@@ -25,6 +25,7 @@ public:
 	Mat3 transpose() const;
 	double determinant() const;
 	Mat3 inverse() const;
+    double trace() const;
 };
 
 #endif
